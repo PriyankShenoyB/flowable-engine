@@ -454,6 +454,7 @@
         "THEME": "Thème",
         "GROUPS-ACCESS": "Groupes avec accès, séparés par des virgules",
 		"USERS-ACCESS": "Utilisateurs avec access, séparés par des virgules",
+        "TENANT-ID": "Identifiant du tenant",
         "ACTION": {
             "DETAILS": "Afficher les détails",
             "EDIT": "Modifier les propriétés de la définition d'App",

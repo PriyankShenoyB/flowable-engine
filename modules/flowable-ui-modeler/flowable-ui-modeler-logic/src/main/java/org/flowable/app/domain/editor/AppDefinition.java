@@ -31,6 +31,7 @@ public class AppDefinition {
     protected String icon;
     protected String groupsAccess;
     protected String usersAccess;
+    protected String tenantId;
 
     public String getTheme() {
         return theme;
@@ -78,5 +79,13 @@ public class AppDefinition {
 
     public void setUsersAccess(String usersAccess) {
         this.usersAccess = usersAccess;
+    }
+
+    public String getTenantId() {
+        return tenantId;
+    }
+
+    public void setTenantId(String tenantId) {
+        this.tenantId = tenantId;
     }
 }

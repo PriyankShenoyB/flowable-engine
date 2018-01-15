@@ -351,6 +351,7 @@
         "THEME": "Tema",
         "GROUPS-ACCESS": "Acceso a grupos, separado por comas",
         "USERS-ACCESS": "Acceso a usuarios, separado por comas",
+        "TENANT-ID": "Identificador de tenant",
         "ACTION": {
             "DETAILS": "Mostrar detalles",
             "EDIT": "Modificar propiedades de la App",

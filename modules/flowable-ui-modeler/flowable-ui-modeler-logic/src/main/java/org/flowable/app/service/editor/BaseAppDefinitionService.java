@@ -122,6 +122,7 @@ public class BaseAppDefinitionService {
         appDefinitionNode.put("icon", appDefinition.getIcon());
         appDefinitionNode.put("usersAccess", appDefinition.getUsersAccess());
         appDefinitionNode.put("groupsAccess", appDefinition.getGroupsAccess());
+        appDefinitionNode.put("tenantId", appDefinition.getTenantId());
         return appDefinitionNode.toString();
     }
 

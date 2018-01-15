@@ -455,6 +455,7 @@
         "THEME": "Theme",
         "GROUPS-ACCESS": "Groups access, separated by commas",
 		"USERS-ACCESS": "Users access, separated by commas",
+        "TENANT-ID": "Tenant Identifier",
         "ACTION": {
             "DETAILS": "Show details",
             "EDIT": "Modify app definition properties",

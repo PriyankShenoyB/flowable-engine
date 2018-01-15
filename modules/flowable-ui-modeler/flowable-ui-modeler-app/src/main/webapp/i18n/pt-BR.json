@@ -329,6 +329,7 @@
     "THEME":"Tema",
     "GROUPS-ACCESS":"Acesso de grupos, separado por vírgulas",
     "USERS-ACCESS":"Acesso de usuários, separado por vírgulas",
+    "TENANT-ID": "Identificador do tenant",
     "ACTION":{
       "DETAILS":"Mostrar detalhes",
       "EDIT":"Modificar propriedades de definição do aplicativo",

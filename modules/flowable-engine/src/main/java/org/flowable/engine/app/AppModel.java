@@ -21,6 +21,7 @@ public class AppModel {
     protected String icon;
     protected String usersAccess;
     protected String groupsAccess;
+    protected String tenantId;
 
     public String getKey() {
         return key;
@@ -76,5 +77,13 @@ public class AppModel {
 
     public void setGroupsAccess(String groupsAccess) {
         this.groupsAccess = groupsAccess;
+    }
+
+    public String getTenantId() {
+        return tenantId;
+    }
+
+    public void setTenantId(String tenantId) {
+        this.tenantId = tenantId;
     }
 }

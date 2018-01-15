@@ -82,7 +82,15 @@
 							id="userAccessApp" ng-model="currentAppDefinition.definition.usersAccess"
 							custom-keys enter-pressed="changeUsers($event)" />
 					</div>
-				</div>                 
+				</div>
+                <div class="col-xs-8">
+                    <div class="form-group">
+                        <label for="tenantIdApp">{{'APP.TENANT-ID' | translate}}</label>
+                        <input ng-disabled="model.loading" type="text" class="form-control"
+                               id="tenantIdApp" ng-model="currentAppDefinition.definition.tenantId"
+                               custom-keys enter-pressed="changeTenantId($event)" />
+                    </div>
+                </div>
             </div>
 
             <div class="row">
